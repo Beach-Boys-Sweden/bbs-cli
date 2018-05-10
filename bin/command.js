@@ -2,4 +2,4 @@
 
 const shell = require("shelljs");
 
-shell.exec("$(pwd)/node_modules/.bin/webpack");
+shell.exec("$(pwd)/node_modules/.bin/webpack --mode=development");

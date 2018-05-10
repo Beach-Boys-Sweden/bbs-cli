@@ -3,7 +3,7 @@ import { resolve } from "./config/resolve"
 import { server }  from "./config/server"
 import   optimizer from "./config/optimization"
 
-export const configuration = (serverConf) => ({
+export default (serverConf) => ({
     module: rules(),
     resolve: resolve(),
     devServer: ({ ...server(), ...serverConf }),

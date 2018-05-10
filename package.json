@@ -3,7 +3,7 @@
   "version": "2018.4.0",
   "description": "centrilized webpack configuration for Beach Boys Sweden modules.",
   "main": "index.js",
-  "repository" : {
+  "repository": {
     "type": "git",
     "url": "https://github.com/Beach-Boys-Sweden/bbs-webpack.git"
   },

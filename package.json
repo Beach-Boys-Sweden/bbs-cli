@@ -8,7 +8,7 @@
     "url": "https://github.com/Beach-Boys-Sweden/bbs-webpack.git"
   },
   "bin": {
-    "wp": "bin/command.js"
+    "wp": "bin/cli.js"
   },
   "scripts": {
     "build": "babel ./src --out-dir ./dist --ignore=test,resources --copy-files --presets env --plugins transform-object-rest-spread"

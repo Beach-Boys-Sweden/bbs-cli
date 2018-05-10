@@ -28,7 +28,6 @@ function rules() {
                             require('postcss-import')({ root: loader.resourcePath }),
                             require('postcss-cssnext')(),
                             require('postcss-url')(),
-
                         ]
                     }
                 }

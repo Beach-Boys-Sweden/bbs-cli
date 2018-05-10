@@ -1,5 +1,5 @@
 {
-  "name": "@bbs/webpack",
+  "name": "@bbs/cli",
   "version": "2018.4.0",
   "description": "centrilized webpack configuration for Beach Boys Sweden modules.",
   "main": "index.js",

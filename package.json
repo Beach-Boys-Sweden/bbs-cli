@@ -3,6 +3,10 @@
   "version": "2018.4.0",
   "description": "centrilized webpack configuration for Beach Boys Sweden modules.",
   "main": "index.js",
+  "repository" : {
+    "type": "git",
+    "url": "https://github.com/Beach-Boys-Sweden/bbs-webpack.git"
+  },
   "bin": {
     "wp": "bin/command.js"
   },
@@ -11,7 +15,7 @@
   },
   "author": "Gideon Oduro",
   "license": "MIT",
-  "peerDependencies": {
+  "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "6.26.3",
     "babel-loader": "7.1.4",

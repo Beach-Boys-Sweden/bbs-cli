@@ -9,8 +9,7 @@ program
     .option('-d, --development', 'Build development')
     .option('-p, --production', 'Build production')
     .action((opt, argv) =>
-       console.log(opt.production)
-       //  shell.exec(`$(pwd)/node_modules/.bin/webpack --mode=${opt.production ? "production" : "development"}`)
+        shell.exec(`$(pwd)/node_modules/.bin/webpack --mode=${opt.production ? "production" : "development"}`)
     );
 
 program.parse(process.argv);
